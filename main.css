@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "roboto"sans-serif;
+}
+
+body{
+    background-color: powderblue;
+}
+
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8%;
+}
+
+label{
+    padding: 8px;
+    background-color: slategrey;
+    color: black;
+    border-radius: 3px;
+    font-family: "roboto", sans-serif;
+    font-size: larger;
+    margin: 4px;
+}
+
+#nome,
+#telefone{
+    padding: 8px;
+    border-radius: 3px;
+    font-family: "roboto", sans-serif;
+    margin: 4px;
+    background-color: white;
+    color: black;
+}
+
+input {
+    padding: 8px;
+    background-color: rgb(26, 143, 46);
+    color: rgb(255, 255, 255);
+    border-radius: 3px;
+    font-family: "roboto", sans-serif;
+    font-size: larger;
+    margin: 4px;
+}
+
+#Adicionar {
+    font-family: 'roboto'sans-serif;
+    padding: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.3);
+    }
+
+#contatos {
+    font-family: 'roboto'sans-serif;
+    padding: 15px;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: slategrey;
+}
+
+table{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 70px;    
+    background-color: slategrey;
+    color: black;
+    border-radius: 3px;
+    font-family: "roboto", sans-serif;
+    font-size: larger;
+    margin: 0px;
+}
+
+#opc {
+    border-radius: 8px;
+    font-family: "roboto", sans-serif;
+    font-size: larger;
+    margin: 20%;
+    padding: 8px;
+    background-color: rgb(79, 105, 131);    
+}
+
+#phone {
+    border-radius: 8px;
+    font-family: "roboto", sans-serif;
+    font-size: larger;
+    margin: 20%;
+    padding: 8px;
+    background-color: rgb(79, 105, 131);    
+}
